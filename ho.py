@@ -1,3 +1,7 @@
-weight = input("請輸入體重: ")
-height = input("請輸入身高: ")
-print(weight , height)
+# 攝氏溫度轉換華氏溫度
+
+
+c = input("請輸入攝氏溫度")
+c = float(c)
+f = c * 9 / 5 + 32
+print("華氏溫度為:", f)
